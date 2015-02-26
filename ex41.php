@@ -10,7 +10,7 @@
             $i = 0;
             for($i = 0;$i < 8;$i++){
                 if($i == 0){
-                    echo "<table > <thead> <th> <td> Nome </td> <td> id </td> <td> Desc </td> </th> </thead> </table>";
+                    echo "<table > <thead> <th> <td> NOME </td> <td> ID </td> <td> DESC </td> </th> </thead> </table>";
                 }
                 else if($i % 2 ==0){ 
                     echo "<table class=colunapar> <tr> <td> Nome </td> <td> id </td> <td> desc </td> </tr> </table>";
