@@ -1,0 +1,10 @@
+td{
+    border: solid;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+.colunapar{
+    background: gray;
+}
