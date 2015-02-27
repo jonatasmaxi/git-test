@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-            $n = 9;
+            $n = 169;
             $cont = 0;
             $i = 1;
             while($i <= $n){
@@ -16,10 +16,10 @@
                 $i++;
             }
             if($cont <= 2){
-                echo "O número é primo";
+                echo "O número $n é primo";
             }
             else{
-                echo "O número não é primo";
+                echo "O número $n não é primo";
             }
         ?>
     </body>
