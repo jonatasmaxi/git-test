@@ -10,13 +10,13 @@
             $i = 0;
             for($i = 0;$i < 8;$i++){
                 if($i == 0){
-                    echo "<table > <thead> <th> <td> NOME </td> <td> ID </td> <td> DESC </td> </th> </thead> </table>";
+                    echo "<table> <tr class=header> <td> Nome </td> <td> Id </td> <td> Desc </td> </tr> ";
                 }
-                else if($i % 2 ==0){ 
-                    echo "<table class=colunapar> <tr> <td> Nome </td> <td> id </td> <td> desc </td> </tr> </table>";
+                else if(($i % 2 ==0) and ($i !=0)){
+                    echo "<tr class=colunapar> <td> Nome </td> <td> Id </td> <td> Desc </td> </tr>";
                 }
                 else{
-                    echo "<table> <tr> <td> Nome </td> <td> id </td> <td> desc </td> </tr> </table>";
+                    echo "<tr> <td> Nome </td> <td> Id </td> <td> Desc </td> </tr>";
                 }
             }
         ?>
