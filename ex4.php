@@ -28,10 +28,10 @@
             }
             if($aprovadoDireto == false){
                 if($mf >= 5){
-                    echo "Aprovado com prova final <br> Agora já pode descansar tranquilo <br> Média Final: .$mf";
+                    echo "Aprovado com prova final <br> Agora já pode descansar tranquilo <br> Média Final: $mf";
                 }
                 else{
-                    echo "Reprovado <br> Não foi dessa vez ano que vem tem mais TWII <br> Média Intermediária: .$mi <br> Média Final: .$mf";
+                    echo "Reprovado <br> Não foi dessa vez ano que vem tem mais TWII <br> Média Intermediária: $mi <br> Média Final: .$mf";
                 }
             }
         ?>
