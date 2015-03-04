@@ -3,6 +3,7 @@
     <HEAD>
         <TITLE> Exercício 5 </TITLE>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="ex5.css">
     </HEAD>
     <body>
         <table>
@@ -12,6 +13,7 @@
                 <td> Semana </td>
                 <td> Professor </td>
             </thead>
+            <tbody> 
             <?php 
               $horario[0][0] = '02K01';
               $horario[0][1] = 'Tecnologia Web II';
@@ -25,7 +27,19 @@
               $horario[2][1] = 'Linguagem De Programação I';
               $horario[2][2] = 'Quarta';
               $horario[2][3] = 'Charles';
+              $i;
+              $j;
+              for($i =0;$i < count($horario);$i++){
+                  echo "<tr>";
+                  for($j =0;$j <= count($horario);$j++){
+                      echo "<td>";
+                      echo $horario[$i][$j];
+                      echo "</td>";
+                  }
+                  echo "</tr>";
+              }
             ?>
+            </tbody>
         </table>
     </body>
 </HTML>
